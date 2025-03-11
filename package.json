@@ -1,0 +1,29 @@
+{
+  "name": "ehs-navigator-types",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "description": "EHS Navigator Api types",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter nyan",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angle-brackets-io/ehs-navigator-types.git"
+  },
+  "keywords": [
+    "number",
+    "formatter"
+  ],
+  "author": "aqil-usman",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "~3.0.0",
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.17",
+    "mocha": "~2.2.5"
+  }
+}
